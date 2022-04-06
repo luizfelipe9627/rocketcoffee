@@ -150,6 +150,7 @@ nav li {
     .section-mobile {
         flex-direction: column;
         align-items: center;
+        align-content: center;
     }
 
     .button-mobile {
