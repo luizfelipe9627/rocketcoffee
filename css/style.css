@@ -118,6 +118,10 @@ nav li {
     text-transform: uppercase;
 }
 
+.button-desktop img {
+    padding-left: 15px;
+}
+
 .button-desktop:hover, .button-mobile:hover {
     background-color: var(--button);
     transition: linear 1s;
