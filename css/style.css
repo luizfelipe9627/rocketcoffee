@@ -62,7 +62,6 @@ header a, section a {
     color: #FFF;
 }
 
-
 header nav a:hover {
     font-weight: 700;
     font-size: 17px;
@@ -70,16 +69,17 @@ header nav a:hover {
     border-bottom: 4px solid var(--button);
 }
 
-nav ul {
+.menu nav ul {
     display: flex;
+    list-style: none;
+}
+
+.menu nav li {
+    padding: 0 15px 0 15px;
 }
 
 .menu-mobile {
     display: none;
-}
-
-.menu ul {
-    display: flex;
 }
 
 /*
@@ -208,7 +208,7 @@ nav ul {
         border: none;
     }
 
-    .menu li {
+    .menu nav li {
         padding: 15px 0 15px 0;
         border-top: 1px solid rgba(41, 41, 46, 1);;
         width: 100vw;
@@ -246,7 +246,7 @@ nav ul {
 
     .section-mobile {
         flex-direction: column;
-        height: 90vh;
+        margin-top: 80px;
         justify-content: center;
     }
 
@@ -254,7 +254,7 @@ nav ul {
         font-size: 30px;
         font-weight: 600;
         color: var(--text-color);
-        padding-bottom: 100px;
+        padding-bottom: 80px;
         max-width: 360px;
     }
 
@@ -274,6 +274,7 @@ nav ul {
     }
 
     .titulo1 {
+        margin-top: 80px;
         font-size: calc(2em + 3vw );
     }
     .titulo2 {
