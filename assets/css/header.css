@@ -66,8 +66,8 @@ header nav a:hover {
     position: absolute;
     background-color: var(--background);
     width: 100vw;
-    height: calc(104vh - 6.25rem);
-    top: 4.9375rem;
+    height: calc(100vh - 3rem);
+    top: 3.4375rem;
     right: 0;
   }
 

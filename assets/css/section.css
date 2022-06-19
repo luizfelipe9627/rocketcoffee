@@ -18,8 +18,9 @@
 
 .titulo2 {
   color: var(--background);
-  text-shadow: -0.0625rem -0.0625rem 0 var(--button), 0.0625rem -0.0625rem 0 var(--button),
-    -0.0625rem 0.0625rem 0 var(--button), 0.0625rem 0.0625rem 0 var(--button);
+  text-shadow: -0.0625rem -0.0625rem 0 var(--button),
+    0.0625rem -0.0625rem 0 var(--button), -0.0625rem 0.0625rem 0 var(--button),
+    0.0625rem 0.0625rem 0 var(--button);
 }
 
 .button-desktop,
@@ -50,12 +51,8 @@
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
-  section,
-  .button-mobile {
-    display: flex;
-  }
-
   section {
+    display: flex;
     max-width: 90vw;
     align-items: center;
     display: flex;
@@ -64,6 +61,7 @@
   }
 
   .section-mobile {
+    display: flex;
     flex-direction: column;
     margin-top: 5rem;
     justify-content: center;
@@ -78,6 +76,7 @@
   }
 
   .button-mobile {
+    display: flex;
     align-items: center;
     width: 100%;
     font-size: 0.75rem;
@@ -96,7 +95,7 @@
     margin-top: 5rem;
     font-size: calc(2rem + 3vw);
   }
-  
+
   .titulo2 {
     font-size: calc(2rem + 2.4vw);
   }

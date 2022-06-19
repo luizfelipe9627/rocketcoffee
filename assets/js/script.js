@@ -15,9 +15,9 @@ window.onload = function () {
 function clicou() {
   if (document.querySelector(".menu nav").style.display == "flex") {
     document.querySelector(".menu-mobile").src =
-      "/assets/image/menu-buguer-open.svg";
+      "https://luizfelipe9627.github.io/rocketcoffee/assets/image/menu-buguer-open.svg";
   } else if ((document.querySelector(".menu nav").style.display = "none")) {
     document.querySelector(".menu-mobile").src =
-      "/assets/image/menu-buguer-close.svg";
+      "https://luizfelipe9627.github.io/rocketcoffee/assets/image/menu-buguer-close.svg";
   }
 }
