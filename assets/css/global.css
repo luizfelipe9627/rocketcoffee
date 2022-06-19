@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+  background-image: url(/assets/images/blur-2.png),
+    url(/assets/image/blur-1.png);
+  background-repeat: no-repeat;
+  background-position: top right, bottom left;
+  background-attachment: fixed;
+  background-color: #000;
+}
+
+h1 {
+  line-height: 0.9375rem;
+}
+
+:root {
+  --background: #000;
+  --text-color: #fff;
+  --button: #8257e5;
+  --border: #29292e;
+  --border-menu-mobile: #a8a8b3;
+  --text-color-menu-mobile: #e1e1e6;
+}
+
+body::-webkit-scrollbar {
+  width: 0.625rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(7, 7, 7);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--button);
+  border-radius: 1.25rem;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  body {
+    background-image: url(/assets/image/blur-mobile.png);
+    background-attachment: local;
+    background-position: bottom;
+  }
+}
