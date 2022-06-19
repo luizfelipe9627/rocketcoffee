@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: "Manrope", sans-serif;
-  background-image: url(/assets/images/blur-2.png),
+  background-image: url(/assets/image/blur-2.png),
     url(/assets/image/blur-1.png);
   background-repeat: no-repeat;
   background-position: top right, bottom left;
