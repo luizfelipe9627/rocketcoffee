@@ -33,6 +33,15 @@ header nav a:hover {
   display: none;
 }
 
+.button-desktop {
+  display: flex;
+  align-items: center;
+}
+
+.logo-mobile, .menu-mobile {
+  display: none;
+}
+
 @media (min-width: 320px) and (max-width: 425px) {
   .logo-mobile,
   .section-mobile,
@@ -66,8 +75,8 @@ header nav a:hover {
     position: absolute;
     background-color: var(--background);
     width: 100vw;
-    height: calc(100vh - 3rem);
-    top: 3.4375rem;
+    height: calc(100vh - 5rem);
+    top: 5.1rem;
     right: 0;
   }
 
@@ -81,6 +90,7 @@ header nav a:hover {
     flex: 1;
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 5px;
   }
 
   .menu nav ul {

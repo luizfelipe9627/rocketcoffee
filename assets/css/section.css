@@ -6,10 +6,6 @@
   align-items: center;
 }
 
-.container-geral img {
-  width: auto;
-}
-
 .titulo1,
 .titulo2 {
   font-size: 5rem;
@@ -43,9 +39,6 @@
   transition: linear 1s;
 }
 
-.logo-mobile,
-.barra-menu,
-.menu-mobile img,
 .section-mobile {
   display: none;
 }
@@ -98,5 +91,9 @@
 
   .titulo2 {
     font-size: calc(2rem + 2.4vw);
+  }
+
+  .container-geral img {
+  height: auto;
   }
 }
