@@ -128,3 +128,20 @@ header nav a:hover {
     width: 2.1875rem;
   }
 }
+
+@media (min-width: 426px) and (max-width: 768px) {
+  header {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .button-desktop {
+    margin-top: 3.75rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  header {
+    max-width: 90vw;
+  }
+}
