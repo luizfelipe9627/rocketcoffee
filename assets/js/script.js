@@ -1,5 +1,4 @@
 // Responsável por abrir e fechar o menu.
-
 window.onload = function () {
   document.querySelector(".menu-mobile").addEventListener("click", function () {
     if (document.querySelector(".menu nav").style.display == "flex") {
@@ -11,7 +10,6 @@ window.onload = function () {
 };
 
 // Responsável por mudar o ícone do menu clicável.
-
 function clicou() {
   if (document.querySelector(".menu nav").style.display == "flex") {
     document.querySelector(".menu-mobile").src =
