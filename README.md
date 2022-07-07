@@ -6,7 +6,7 @@
 ## 📄 Descrição
 RocketCoffee é uma homepage desenvolvida para uma marca de café
 
-### <a href="https://luizfelipe9627.github.io/rocketcoffee">Acesse o site</a>
+### <a href="https://luizfelipe9627-rocketcoffee.netlify.app">Acesse o site</a>
 
 ## 📑 Observação
 Desafio pego na plataforma Rocketseat com o intuito de praticar HTML5, CSS3 e JavaScript.
