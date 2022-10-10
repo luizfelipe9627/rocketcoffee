@@ -1,7 +1,7 @@
 # RocketCoffee
 ![Badge](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)             
 
-<img src="https://github.com/luizfelipe9627/rocketcoffee/blob/master/assets/video/rocketcoffee.gif" alt="Apresentação do Rocketcoffee">
+<img src="https://github.com/luizfelipe9627/rocketcoffee/blob/main/assets/video/rocketcoffee.gif" alt="Apresentação do Rocketcoffee">
 
 ## 📄 Descrição
 RocketCoffee é uma homepage desenvolvida para uma marca de café
